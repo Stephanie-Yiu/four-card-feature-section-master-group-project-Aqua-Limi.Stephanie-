@@ -1,0 +1,55 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100&display=swap');
+/*font-family: 'Poppins', sans-serif;
+ - Weights: 200, 400, 600*/
+
+:root {
+  --Red: hsl(0, 78%, 62%);
+  --Cyan: hsl(180, 62%, 55%);
+  --Orange: hsl(34, 97%, 64%);
+  --Blue: hsl(212, 86%, 64%);
+  --Very-Dark-Blue: hsl(234, 12%, 34%);
+  --Grayish-Blue: hsl(229, 6%, 66%);
+  --Very-Light-Gray: hsl(0, 0%, 98%);
+  --Font-size: 15px;
+}
+
+body {
+  margin: none;
+  font-size: var(--Font-size);
+  font-family: 'Poppins', sans-serif;
+  box-sizing: border-box;
+}
+
+.cointainer {
+  width: 1440px;
+}
+.card {
+  margin: 10%;
+  font-weight: 400;
+  width: 15rem;
+  height: 11.25rem;
+
+  border-radius: 2%;
+  padding: 1%;
+  display: block;
+  box-shadow: -5px 8px 16px 0px rgba(0, 0, 0, 0.7);
+}
+
+.card img {
+  width: 27%;
+  float: right;
+}
+.card-title {
+  color: var(--Very-Dark-Blue);
+  font-weight: 600;
+  font-size: 1px;
+}
+
+.card-text {
+  color: var(--Grayish-Blue);
+  font-size: 0.5rem;
+}
+
+.team-builder-1 {
+  border-top: 3px solid var(--Red);
+}
