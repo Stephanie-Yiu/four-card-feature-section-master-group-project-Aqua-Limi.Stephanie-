@@ -48,9 +48,10 @@ header {
 }
 .card-title {
   color: var(--Very-Dark-Blue);
-  font-weight: 600;
-  font-size: 2px;
+  font-weight: 600px;
+  font-size: 20px;
 }
+
 
 .card-text {
   color: var(--Grayish-Blue);
@@ -59,4 +60,12 @@ header {
 
 .team-builder-1 {
   border-top: 3px solid var(--Red);
+}
+
+.team-builder-2 {
+  border-top: 3px solid var(--Cyan);
+}
+
+.team-builder-3 {
+  border-top: 3px solid var(--Orange);
 }
