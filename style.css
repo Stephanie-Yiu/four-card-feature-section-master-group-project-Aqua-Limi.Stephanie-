@@ -37,9 +37,9 @@ border-radius: 2%;
 .card img {
   width: 27%;
   float: right;
+  margin-top: 20px;
   display: flex;
-  justify-content: flex-end;
-  flex-direction: column;
+  align-self: flex-end;
 }
 
 .card-title {
