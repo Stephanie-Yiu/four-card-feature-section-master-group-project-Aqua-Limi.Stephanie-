@@ -22,9 +22,11 @@ body {
 
 .cointainer {
   width: 1440px;
+  display: flex;
+  justify-content: space-around;
 }
 .card {
-  margin: 10%;
+  margin: 5%;
   font-weight: 400;
   width: 15rem;
   height: 11.25rem;
@@ -42,7 +44,7 @@ body {
 .card-title {
   color: var(--Very-Dark-Blue);
   font-weight: 600;
-  font-size: 1px;
+  font-size: 2px;
 }
 
 .card-text {
