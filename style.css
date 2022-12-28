@@ -18,7 +18,8 @@ body {
   font-size: var(--Font-size);
   font-family: 'Poppins', sans-serif;
   box-sizing: border-box;
-  width: 1440px;
+  width: 1300px;
+  min-width: 400px;
 }
 header {
   text-align: center;
@@ -84,4 +85,64 @@ header {
 
 .team-builder-4 {
   border-top: 3px solid var(--Blue);
+}
+
+@media only screen and (max-width: 700px) {
+  body {
+    margin: none;
+    font-size: var(--Font-size);
+    font-family: 'Poppins', sans-serif;
+    box-sizing: border-box;
+    width: 500px;
+  }
+  .cointainer-1 {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+  }
+  .cointainer-2 {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    position: static;
+    bottom: 0px;
+  }
+  header {
+    display: flexbox;
+    text-align: center;
+    color: var(--Very-Dark-Blue);
+    line-height: 150%;
+  }
+}
+
+@media only screen and (max-width: 400px) {
+  body {
+    margin: none;
+    font-size: var(--Font-size);
+    font-family: 'Poppins', sans-serif;
+    box-sizing: border-box;
+    width: 400px;
+  }
+  .cointainer-1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .cointainer-2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: static;
+    bottom: 0px;
+  }
+  header {
+    display: flexbox;
+    text-align: center;
+    color: var(--Very-Dark-Blue);
+    line-height: 150%;
+  }
 }
