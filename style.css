@@ -28,9 +28,8 @@ body {
   font-weight: 400;
   width: 15rem;
   height: 11.25rem;
-
-  border-radius: 2%;
-  padding: 1%;
+border-radius: 2%;
+  padding: 2.5%;
   display: block;
   box-shadow: -5px 8px 16px 0px rgba(0, 0, 0, 0.7);
 }
@@ -38,11 +37,15 @@ body {
 .card img {
   width: 27%;
   float: right;
+  display: flex;
+  justify-content: flex-end;
+  flex-direction: column;
 }
+
 .card-title {
   color: var(--Very-Dark-Blue);
   font-weight: 600;
-  font-size: 1px;
+  font-size: 20px;
 }
 
 .card-text {
@@ -52,4 +55,8 @@ body {
 
 .team-builder-1 {
   border-top: 3px solid var(--Red);
+}
+
+.team-builder-4{
+  border-top: 3px solid var(--Blue);
 }
