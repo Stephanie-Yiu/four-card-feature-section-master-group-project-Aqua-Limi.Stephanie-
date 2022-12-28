@@ -19,6 +19,11 @@ body {
   font-family: 'Poppins', sans-serif;
   box-sizing: border-box;
 }
+header {
+  text-align: center;
+  color: var(--Very-Dark-Blue);
+  line-height: 150%;
+}
 
 .cointainer {
   width: 1440px;
