@@ -19,12 +19,19 @@ body {
   font-family: 'Poppins', sans-serif;
   box-sizing: border-box;
 }
+header {
+  text-align: center;
+  color: var(--Very-Dark-Blue);
+  line-height: 150%;
+}
 
 .cointainer {
   width: 1440px;
+  display: flex;
+  justify-content: space-around;
 }
 .card {
-  margin: 10%;
+  margin: 5%;
   font-weight: 400;
   width: 15rem;
   height: 11.25rem;
@@ -44,9 +51,10 @@ border-radius: 2%;
 
 .card-title {
   color: var(--Very-Dark-Blue);
-  font-weight: 600;
+  font-weight: 600px;
   font-size: 20px;
 }
+
 
 .card-text {
   color: var(--Grayish-Blue);
@@ -55,6 +63,13 @@ border-radius: 2%;
 
 .team-builder-1 {
   border-top: 3px solid var(--Red);
+}
+.team-builder-2 {
+  border-top: 3px solid var(--Cyan);
+}
+
+.team-builder-3 {
+  border-top: 3px solid var(--Orange);
 }
 
 .team-builder-4{
