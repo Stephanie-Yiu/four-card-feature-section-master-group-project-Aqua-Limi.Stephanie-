@@ -2,6 +2,26 @@
 /*font-family: 'Poppins', sans-serif;
  - Weights: 200, 400, 600*/
 
+ @media only screen and (max-width: 576px) { 
+
+  .team-builder-2 {
+    margin-top: 20%;
+  }
+
+  .team-builder-1 {
+    margin-top: 40%;
+  }
+
+  .team-builder-3 {
+    margin-top: 60%;
+  }
+
+  .team-builder-4 {
+    margin-top: 80%;
+  }
+
+  }
+
 :root {
   --Red: hsl(0, 78%, 62%);
   --Cyan: hsl(180, 62%, 55%);
